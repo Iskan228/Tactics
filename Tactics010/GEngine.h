@@ -1,5 +1,4 @@
 #include "funcs.h"
-#include "rands.h"
 
 #define MAP_WIDTH 22
 #define MAP_HEIGHT 5
