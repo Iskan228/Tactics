@@ -9,7 +9,7 @@
     #include <ctype.h>
     #include <string.h>
 
-    #include "minttypes.h"
+    #include "rands.h"
 
     #ifdef __STDC_VERSION__
         #define IS_C99 1
