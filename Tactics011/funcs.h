@@ -4,7 +4,6 @@
 	#include <stdio.h>
 	#include <stdlib.h>
 	#include <stddef.h>
-	#include <signal.h>
 	#include <limits.h>
 	#include <ctype.h>
 	#include <string.h>
