@@ -183,7 +183,7 @@
 		register int c;
 
 		do {
-			printf("\n%s? (y): ", question);
+			printf("\n%s? (y/n): ", question);
 			c = tolower(_mygetc());
 			if(c == EOF || c == '\0')
 				my_exit_failure();
