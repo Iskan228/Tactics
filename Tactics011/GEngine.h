@@ -298,7 +298,7 @@
 				noteq2chars('W', 'A');
 				break;
 			default:
-				noteq3chars('W', 'A', 'S');
+				noteq3chars('W', 'A', 'D');
 			}
 			break;
 		default:
