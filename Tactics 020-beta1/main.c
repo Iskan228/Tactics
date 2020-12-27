@@ -17,7 +17,6 @@ int main()
 {
 	int ival;
 	u8 dst;
-	char str[50];
 	register uint pos;
 	register width_t i, posx;
 	register height_t j, posy;
@@ -66,7 +65,7 @@ int main()
 		puts("SIGILL error");
 	mpause();
 	mySetColor(mcWhite, mcBlack);
-	srand(time(0));
+	srand(time(NULL));
 	for(i = 0; i < MAP_WIDTH; i++)
 	{
 		for(j = 0; j < MAP_HEIGHT; j++)
